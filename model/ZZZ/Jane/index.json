@@ -1,0 +1,23 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "Jane.moc3",
+    "Textures": [
+      "Jane.8192/texture_00.png"
+    ],
+    "Physics": "Jane.physics3.json",
+    "DisplayInfo": "Jane.cdi3.json"
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": []
+    }
+  ]
+}
