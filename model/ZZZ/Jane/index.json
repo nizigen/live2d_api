@@ -3,7 +3,7 @@
   "FileReferences": {
     "Moc": "Jane.moc3",
     "Textures": [
-      "Jane.4096/texture_00.png"
+      "https://raw.githubusercontent.com/nizigen/live2d_api/main/model/ZZZ/Jane/Jane.4096/texture_00.png"
     ],
     "Physics": "Jane.physics3.json",
     "DisplayInfo": "Jane.cdi3.json"
