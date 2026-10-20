@@ -8,7 +8,7 @@
   };
 
   // 每个模型的人物缩放（隐藏场景后模型会重排，需要各自补偿）
-  var FRAME = { "0": 1.45, "1": 1.85 };
+  var FRAME = { "0": { scale: 1.45, bottom: -55 }, "1": { scale: 1.70, bottom: -95 } };
 
   var lastModel = null;
   var lastId = null;
@@ -27,10 +27,11 @@
     for (var i = 0; i < list.length; i++) c.setPartOpacityByIndex(list[i], 0);
 
     var canvas = document.getElementById("live2d");
-    var scale = FRAME[id] || 1;
+    var f = FRAME[id] || { scale: 1, bottom: 0 };
     if (canvas) {
       canvas.style.transformOrigin = "50% 100%";
-      canvas.style.transform = "scale(" + scale + ")";
+      canvas.style.transform = "scale(" + f.scale + ")";
+      canvas.style.bottom = f.bottom + "px";
     }
     lastModel = m;
     lastId = id;
