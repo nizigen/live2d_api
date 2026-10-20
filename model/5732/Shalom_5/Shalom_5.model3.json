@@ -3,21 +3,53 @@
   "FileReferences": {
     "Moc": "Shalom_5.moc3",
     "Textures": [
-      "textures/texture_00.png"
+      "textures/texture_00_4096.png"
     ],
-    "Motions": {}
-  },
-  "Groups": [
-    {
-      "Target": "Parameter",
-      "Name": "EyeBlink",
-      "Ids": []
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/Idle.motion3.json",
+          "FadeInTime": 1.0,
+          "FadeOutTime": 1.0
+        }
+      ],
+      "TapBody": [
+        {
+          "File": "motions/Click_Body.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        }
+      ],
+      "Background": [
+        {
+          "File": "motions/Background.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        }
+      ],
+      "Click_Body": [
+        {
+          "File": "motions/Click_Body.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        }
+      ]
     },
-    {
-      "Target": "Parameter",
-      "Name": "LipSync",
-      "Ids": []
-    }
-  ],
-  "HitAreas": []
+    "Groups": [
+      {
+        "Target": "Parameter",
+        "Name": "EyeBlink",
+        "Ids": [
+          "ParamEyeLOpen",
+          "ParamEyeROpen"
+        ]
+      }
+    ],
+    "HitAreas": [
+      {
+        "Name": "Body",
+        "Id": "ditu"
+      }
+    ]
+  }
 }
