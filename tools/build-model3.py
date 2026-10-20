@@ -38,11 +38,11 @@ def build(model_dir: Path) -> None:
 
     motions = {}
     if cfg.get("idle"):
-        motions["Idle"] = [entry(m, 1.0) for m in cfg["idle"]]
+        motions["Idle"] = [entry(m, 0.4) for m in cfg["idle"]]
     if cfg.get("tap"):
-        motions["TapBody"] = [entry(m, 0.4) for m in cfg["tap"]]
+        motions["TapBody"] = [entry(m, 0.25) for m in cfg["tap"]]
     for m in cfg.get("extra", []):
-        motions[m] = [entry(m, 0.4)]
+        motions[m] = [entry(m, 0.25)]
 
     data = {
         "Version": 3,

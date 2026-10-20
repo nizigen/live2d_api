@@ -9,32 +9,32 @@
       "Idle": [
         {
           "File": "motions/Idle.motion3.json",
-          "FadeInTime": 1.0,
-          "FadeOutTime": 1.0
+          "FadeInTime": 0.4,
+          "FadeOutTime": 0.4
         },
         {
           "File": "motions/Click_Body.motion3.json",
-          "FadeInTime": 1.0,
-          "FadeOutTime": 1.0
+          "FadeInTime": 0.4,
+          "FadeOutTime": 0.4
         },
         {
           "File": "motions/Background.motion3.json",
-          "FadeInTime": 1.0,
-          "FadeOutTime": 1.0
+          "FadeInTime": 0.4,
+          "FadeOutTime": 0.4
         }
       ],
       "TapBody": [
         {
           "File": "motions/Click_Body.motion3.json",
-          "FadeInTime": 0.4,
-          "FadeOutTime": 0.4
+          "FadeInTime": 0.25,
+          "FadeOutTime": 0.25
         }
       ],
       "Background": [
         {
           "File": "motions/Background.motion3.json",
-          "FadeInTime": 0.4,
-          "FadeOutTime": 0.4
+          "FadeInTime": 0.25,
+          "FadeOutTime": 0.25
         }
       ]
     },
