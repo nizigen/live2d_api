@@ -28,7 +28,8 @@ def build(model_dir: Path) -> None:
     cfg = json.loads((model_dir / "motions.json").read_text(encoding="utf-8"))
     name = model_dir.name
     moc = next(model_dir.glob("*.moc3")).name
-    textures = sorted(f"textures/{p.name}" for p in (model_dir / "textures").glob("*.png"))
+    textures = sorted(f"textures/{p.name}" for p in model_dir.joinpath("textures").iterdir()
+                      if p.suffix.lower() in (".png", ".webp"))
 
     def entry(motion, fade):
         path = model_dir / "motions" / f"{motion}.motion3.json"
