@@ -1,7 +1,9 @@
 {
   "model": "Shalom_5",
   "idle": [
-    "Idle"
+    "Idle",
+    "Click_Body",
+    "Background"
   ],
   "tap": [
     "Click_Body"
@@ -10,5 +12,5 @@
     "Background"
   ],
   "hitArea": "ditu",
-  "note": "idle=待机循环; tap=点击/划过时随机; extra=只单独成组不自动播; hitArea=TapBody 命中用的 drawable"
+  "note": "idle=待机轮播; tap=点击时随机; extra=只单独成组不自动播; hitArea=TapBody 命中用的 drawable"
 }

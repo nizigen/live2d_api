@@ -11,6 +11,16 @@
           "File": "motions/Idle.motion3.json",
           "FadeInTime": 1.0,
           "FadeOutTime": 1.0
+        },
+        {
+          "File": "motions/Click_Body.motion3.json",
+          "FadeInTime": 1.0,
+          "FadeOutTime": 1.0
+        },
+        {
+          "File": "motions/Background.motion3.json",
+          "FadeInTime": 1.0,
+          "FadeOutTime": 1.0
         }
       ],
       "TapBody": [
