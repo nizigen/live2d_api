@@ -1,0 +1,20 @@
+{
+  "model": "Shalom_2",
+  "idle": [
+    "Idle"
+  ],
+  "tap": [
+    "Boring",
+    "Click_Body",
+    "Click_Hand",
+    "Click_Head",
+    "Click_Leg",
+    "Greet"
+  ],
+  "extra": [
+    "Background",
+    "Level"
+  ],
+  "hitArea": "beijingdi",
+  "note": "idle=待机循环; tap=点击/划过时随机; extra=只单独成组不自动播; hitArea=TapBody 命中用的 drawable"
+}

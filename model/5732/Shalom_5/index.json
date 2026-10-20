@@ -16,22 +16,15 @@
       "TapBody": [
         {
           "File": "motions/Click_Body.motion3.json",
-          "FadeInTime": 0.5,
-          "FadeOutTime": 0.5
+          "FadeInTime": 0.4,
+          "FadeOutTime": 0.4
         }
       ],
       "Background": [
         {
           "File": "motions/Background.motion3.json",
-          "FadeInTime": 0.5,
-          "FadeOutTime": 0.5
-        }
-      ],
-      "Click_Body": [
-        {
-          "File": "motions/Click_Body.motion3.json",
-          "FadeInTime": 0.5,
-          "FadeOutTime": 0.5
+          "FadeInTime": 0.4,
+          "FadeOutTime": 0.4
         }
       ]
     },
